@@ -63,5 +63,5 @@
 .Psyhistory { grid-area: 5 / 2 / 6 / 4; z-index:1; width:450px; height:200px; margin-right:-50px; padding-top:10px;}
 .Psyhistory h5 { font-family:var(--fuente2); font-size:40px; color:var(--negro); text-align:center; line-height: 40px; margin-top: 15px}
 .psyhisto { height:135px; font-family:var(--fuente1); font-size:12px; overflow:auto; color:var(--blanco); text-align:justify; padding-right:10px; display: flex; flex-flow: column; gap: 5px; list-style: none; }
-.psyhabilidades li { margin-left: 31px; margin-right: 95px; } .psyhabilidades li::before { content: '◆'; margin-left: -18px; margin-right: 10px; position: relative; color: var(--acento1);}
+.psyhabilidades li { margin-left: 31px; margin-right: 95px; color: var(--acento1); } .psyhabilidades li::before { content: '◆'; margin-left: -18px; margin-right: 10px; position: relative; color: var(--acento1);}
 .psyhabilidades ha { margin-left: 95px; } .psyhabilidades ha::before { content: '●'; margin-left: -18px; margin-right: 10px; position: relative; color: var(--acento1);}
